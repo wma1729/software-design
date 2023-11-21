@@ -1,4 +1,4 @@
-# Cohesion & Coupling
+# Separation of concerns
 
 # Module vs Components
 

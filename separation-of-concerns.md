@@ -8,7 +8,7 @@ Modules/components can be viewed as a collection/group of related code including
 
 ## Cohesion
 
-Refers to the degree of dependency of the execution units on each other within a single module. Ideally whatever is needed by an execution unit in a module should be available in the same package. A module with *high cohesion* has limited responsibility or the module serves a single or a very small set of purposes. A highly cohesive module is self contained and has fewer reasons to make calls to other modules. A module with *low cohesion*, on the other hand, serves a multitude of purposes in a haphazard manner. A low cohesive module is usually forced to call other modules to meet its goals. Higher cohesivity is a desirable trait that modules should strive to achieve.
+Refers to the degree of dependency of the execution units on each other within a single module. Ideally whatever is needed by an execution unit in a module should be available in the same module. A module with *high cohesion* has limited responsibilities or the module serves a very limited set of related purposes. A highly cohesive module is self contained and has fewer reasons to make calls to other modules. A module with *low cohesion*, on the other hand, serves a multitude of purposes in a haphazard manner. A low cohesive module is usually forced to call other modules to meet its goals. Higher cohesivity is a desirable trait that modules should strive to achieve.
 
 ## Coupling
 
@@ -20,4 +20,4 @@ Refers to the degree of dependency between multiple modules. Two or more modules
 
 > Concern is a  generic term for a purpose/functionality performed.
 
-In designing software, separate concerns into distinct units like classes so that each unit is more flexible, maintainable, reusable and extensible. Another way of saying is that a software unit should only have a single responsibility. This principle often increases cohesion.
+In designing software, separate concerns into distinct units like classes so that each unit is more flexible, maintainable, reusable and extensible. A software unit should have one and only one responsibility. Another way to say this is that there should be one and only one reason to change the software unit. This principle often increases cohesion.

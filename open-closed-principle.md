@@ -1,8 +1,8 @@
 # Open-closed principle
 
 A software module should be
-- open to extension i.e. it should be possible to add new data members/fields and new methods to a module.
-- closed to modification i.e. the external module relying on the software module should not break.
+- open to extension i.e. it should be possible to add new feature
+- closed to modification i.e. the addition of new feature should cause little to no (preferable) changes to the existing code.
 
 ## Implementation
 
